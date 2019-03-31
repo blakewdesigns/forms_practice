@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 60px auto;
+}
+
+form .column {
+    width: 50%;
+}
+
+.column:nth-child(3){
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.column *{
+}
+
+.column > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+}
+
+form i{
+    padding: 5px;
+}

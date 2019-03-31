@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms Practice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <form action="https://formspree.io/your@email.com" method="POST">
+        <div class="column">
+            <div>
+                <i class="fas fa-user"></i>
+                <input type="text" name="fname" placeholder="First Name">
+            </div>
+            <div>
+                <i class="fas fa-at"></i>
+                <input type="text" name="email" placeholder="you@example.com">
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                <input type="text" name="pnum" placeholder="888-333-4444">
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <i class="fas fa-user"></i>
+                <input type="text" name="lname" placeholder="Last Name">
+            </div>
+            <div>
+                <i class="fas fa-birthday-cake"></i>
+                <input type="text" name="bday" placeholder="mm-dd-yy">
+            </div>
+            <div>
+                <i class="fas fa-car"></i>
+                <select name="Location">
+                    <option>Select Location</option>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                </select>
+            </div>
+        </div>
+        <div class="column">
+            <button type="submit" value="Send">Submit Request</button>
+        </div>
+    </form>
+</body>
+</html>
